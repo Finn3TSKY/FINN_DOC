@@ -5,7 +5,7 @@ This file only contain syntax for on the box launching for
 
 ## DBeaver Setup
 
-![Delinea Logo](PIC\DBeaver-ver.png)
+![Delinea Logo](Delinea\PIC\DBeaver-ver.png)
 >Version: 24.1.0.202406021658
 
 ***Make sure to turn of Daily tips and remove Trust Store Check in preference***
