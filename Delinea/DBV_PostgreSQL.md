@@ -10,18 +10,20 @@ This file only contain syntax for on the box launching for
 
 ***Make sure to turn of Daily tips and remove Trust Store Check in preference***
 
-> Host: 192.168.137.129  
+> Host: 192.168.xxx.xxx  
 > Port: 3306  
-> Username: finn  
-> Password: @3TSKYFinn  
-> Database: test  
+> Username: root  
+> Password: password  
+> Database: database  
 
-## Window OS
+## Secret Launcher Setup
+
+### Window OS
 
 try running this command  
 
 ```
-C:\Users\Administrator\AppData\Local\DBeaver\dbeaver.exe -con "driver=mariadb|host=192.168.137.129|port=3306|user=finn|password=@3TSKYFinn|database=test"
+C:\Users\Administrator\AppData\Local\DBeaver\dbeaver.exe -con "driver=mariadb|host=192.168.xxx.xxx|port=3306|user=root|password=password|database=database"
 ```
 
 If work then setup secret server using this arguments
@@ -30,10 +32,10 @@ If work then setup secret server using this arguments
 -con "driver=PostgreSQL|host=$HOST|port=$PORT|user=$USERNAME|password=$PASSWORD|database=$DATABASE"
 ```
 
-## Mac OS
+### Mac OS
 
 ```
-/Applications/DBeaver.app/Contents/MacOS/dbeaver -con "driver=mariadb|host=192.168.137.129|port=3306|user=finn|password=@3TSKYFinn|database=test"
+/Applications/DBeaver.app/Contents/MacOS/dbeaver -con "driver=mariadb|host=192.168.xxx.xxx|port=3306|user=root|password=password|database=database"
 ```
 
 If work then setup secret server using this arguments
