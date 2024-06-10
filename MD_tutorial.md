@@ -8,6 +8,6 @@ There are cheat sheets in folder.
 
 ***
 
-![Delinea Logo](PIC\Delinea.png)
+![Delinea Logo](Delinea\PIC\Delinea.png)
 
 
