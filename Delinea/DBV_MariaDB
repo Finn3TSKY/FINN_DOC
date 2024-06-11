@@ -29,7 +29,7 @@ C:\Users\Administrator\AppData\Local\DBeaver\dbeaver.exe -con "driver=mariadb|ho
 If work then setup secret server using this arguments
 
 ```
--con "driver=PostgreSQL|host=$HOST|port=$PORT|user=$USERNAME|password=$PASSWORD|database=$DATABASE"
+-con "driver=mariadb|host=$HOST|port=$PORT|user=$USERNAME|password=$PASSWORD|database=$DATABASE"
 ```
 
 ***Make sure there is no syntax error***
@@ -43,7 +43,7 @@ If work then setup secret server using this arguments
 If work then setup secret server using this arguments
 
 ```
--con "driver=PostgreSQL|host=$HOST|port=$PORT|user=$USERNAME|password=$PASSWORD|database=$DATABASE"
+-con "driver=mariadb|host=$HOST|port=$PORT|user=$USERNAME|password=$PASSWORD|database=$DATABASE"
 ```
 
 ***Make sure there is no syntax error***
