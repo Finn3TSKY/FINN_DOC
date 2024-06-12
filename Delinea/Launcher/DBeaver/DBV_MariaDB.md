@@ -1,11 +1,11 @@
-# Dbeaver to PostgreSQL
+# Dbeaver to MariaDB
 This file only contain syntax for on the box launching for
 - [x] Window
 - [ ] Mac
 
 ## DBeaver Setup
 
-![DBeaver](\PIC\DBeaver-ver.png)
+![DBeaver](..\PIC\DBeaver-ver.png)
 >Version: 24.1.0.202406021658
 
 ***Make sure to turn of Daily tips and remove Trust Store Check in preference***
