@@ -55,11 +55,9 @@ compmgmt.msc
 
 ```
 Enable-WSManCredSSP -Role Client -DelegateComputer "wsman/*"
-
 ```
 ```
 Enable-WSManCredSSP -Role Server
-
 ```
 
 ## Allow Delegating Fresh Credentials
