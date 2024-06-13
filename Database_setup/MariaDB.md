@@ -39,15 +39,19 @@ sudo systemctl restart mysql
 ## MariaDB relate command
 
 ```
+sudo mariadb
+```
+
+```
 CREATE DATABASE MY_MARIADB;
 ```
 
 ```
-CREATE USER FINN@'%' IDENTIFIED BY '@3TSKYFinn';
+CREATE USER USERNAME@'%' IDENTIFIED BY 'PASSWORD';
 ```
 
 ```
-GRANT ALL PRIVILEGES ON *.* TO 'FINN'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'USERNAME'@'%';
 ```
 
 ## Config access

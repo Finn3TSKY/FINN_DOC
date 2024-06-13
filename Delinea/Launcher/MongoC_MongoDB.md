@@ -18,7 +18,7 @@ For launcher we will use Powershell script
 
 *** Make sure that connection string is working correctly
 ```
-mongodb://Username:Password@Host:Port/?&ssl=false&authSource=Database
+mongodb://Username:Password@Host:Port/?&authSource=Database
 ```
 
 ### Window OS
@@ -36,13 +36,13 @@ $Args[2]+':'+$Args[3]+'/?&ssl=false&authSource='+ $Args[4]
 Try running this command  
 
 ```
-powershell -ExecutionPolicy Bypass -File C:\scripts\Mongo_launch.ps1 "$USERNAME" "$PASSWORD" "$HOST" "$PORT" "$ADatabaseUTH"
+powershell -ExecutionPolicy Bypass -File C:\scripts\Mongo_launch.ps1 "$USERNAME" "$PASSWORD" "$HOST" "$PORT" "$DATABASE"
 ```
 
 If work then setup secret server using this arguments
 
 ```
--ExecutionPolicy Bypass -File C:\scripts\Mongo_launch.ps1 "$USERNAME" "$PASSWORD" "$HOST" "$PORT" "$Database"
+-ExecutionPolicy Bypass -File C:\scripts\Mongo_launch.ps1 "$USERNAME" "$PASSWORD" "$HOST" "$PORT" "$DATABASE"
 ```
 
 ***Make sure there is no syntax error***
