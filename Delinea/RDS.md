@@ -6,7 +6,7 @@ Delinea RDS Setup guide
 ## Overview
 >The Secret Server Session Connector (SSSC) allows you to launch remote sessions (like RDP or SSH) without needing extra software on your computer. This is done using a Remote Desktop Services (RDS) server that takes care of everything.
 
-![RDS-flow](Delinea\PIC\RDS.png)
+![RDS-flow](.\PIC\RDS.png)
 
 
 ## Prerequisites
