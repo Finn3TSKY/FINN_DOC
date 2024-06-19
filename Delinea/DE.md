@@ -4,7 +4,6 @@ Delinea DE Setup guide
 
 ***
 
-
 ## DE Basic Setup
 
 1) Setup Local Server (Firewall, Name)
@@ -40,7 +39,7 @@ Enable-WSManCredSSP -Role Client -DelegateComputer <localhost>
 
 ## Add the Account to the Remote Management Users Group
 
-1) Ctrl + R
+1) Window + R
 
 ```
 compmgmt.msc
@@ -62,7 +61,7 @@ Enable-WSManCredSSP -Role Server
 
 ## Allow Delegating Fresh Credentials
 
-1) Ctrl + R
+1) Window + R
    
 ```
 gpedit.msc
@@ -74,7 +73,24 @@ gpedit.msc
 
 4) Verify that the list contains an entry that begins with "wsman/" and ends with the fully qualified machine name of the Secret Server machine or distributed engine.
 
->For RPCs with custom password changers, this would be "Change Password Using," and then select "Privileged Account".
+***For RPCs with custom password changers, this would be "Change Password Using," and then select "Privileged Account".***
+
+***
+
+For troubleshooting you can use this command below
+
+```
+nslookup Host-Name.Domain-name
+```
+
+```
+test-netconnection 192.168.x.x -port 22
+```
+
+***And don't forget to config endpoints on platform***
+
+![EP-config](\PIC\EP-config.png)
+
 
 
 
