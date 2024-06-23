@@ -65,5 +65,17 @@ sudo nano /etc/postgresql/14/main/pg_hba.conf
 Edit bind address like this
 
 ```
-host    replication   all     0.0.0.0      md5
+host    all             all             0.0.0.0/0            md5
+```
+
+```
+sudo nano /etc/postgresql/14/main/postgresql.conf
+```
+
+```
+listen_addresses = '*'
+```
+
+```
+SELECT pg_reload_conf();
 ```
