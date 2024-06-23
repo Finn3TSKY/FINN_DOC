@@ -25,15 +25,15 @@ sudo mysql_secure_installation
 Most used command
 
 ```
-sudo systemctl start mysql
+sudo systemctl start mariadb
 ```
 
 ```
-sudo systemctl status mysql
+sudo systemctl status mariadb
 ```
 
 ```
-sudo systemctl restart mysql
+sudo systemctl restart mariadb
 ```
 
 ## MariaDB relate command
@@ -43,7 +43,7 @@ sudo mariadb
 ```
 
 ```
-CREATE DATABASE MY_MARIADB;
+CREATE DATABASE DB_MARIADB;
 ```
 
 ```
@@ -52,6 +52,10 @@ CREATE USER USERNAME@'%' IDENTIFIED BY 'PASSWORD';
 
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'USERNAME'@'%';
+```
+
+```
+SHOW DATABASES;
 ```
 
 ## Config access

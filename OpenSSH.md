@@ -19,9 +19,6 @@ sudo ufw allow ssh
 ```
 sudo systemctl start ssh
 ```
-
-For troubleshooting you can use
-
 ```
-test-netconnection 192.168.x.x -port 22
+sudo systemctl enable ssh
 ```

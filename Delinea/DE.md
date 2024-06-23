@@ -87,6 +87,10 @@ nslookup Host-Name.Domain-name
 test-netconnection 192.168.x.x -port 22
 ```
 
+```
+netstat -ns
+```
+
 ***And don't forget to config endpoints on platform***
 
 ![EP-config](\PIC\EP-config.png)
